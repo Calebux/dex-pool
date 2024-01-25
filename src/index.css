@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.form-control {
+  @apply grid grid-cols-[60px_1fr] items-center gap-x-[30px];
+}
+
+.form-control label {
+  @apply text-black text-base font-semibold;
+}
+
+.form-control select {
+  @apply p-4 rounded-[5px] border-[0.5px] border-solid border-[#C4C4C4] w-full outline-none;
+}
+
+.form-box {
+  @apply flex flex-col gap-y-[30px];
+}
